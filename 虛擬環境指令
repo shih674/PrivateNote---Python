@@ -1,0 +1,29 @@
+<填入符合的內容> 
+0. 安裝虛擬環境套件
+    - base
+        pip install virtualenv
+
+1. 建立虛擬環境
+    - base 
+    - in anoconda
+        conda create --name <填入虛擬環境名稱>
+    
+2. 查詢既有的虛擬環境
+    - in anoconda
+        conda env list
+        
+3. 刪除虛擬環境
+    - in anoconda
+        conda env remove --name <填入虛擬環境名稱> 
+
+4. 啟動虛擬環境
+    - windows
+        activate <填入虛擬環境名稱>
+    - linux 或 macOS 
+        source activate <填入虛擬環境名稱>
+        
+5. 離開虛擬環境
+    - windows
+        deactivate <填入虛擬環境名稱>
+    - linux 或 macOS 
+        source deactivate <填入虛擬環境名稱>
