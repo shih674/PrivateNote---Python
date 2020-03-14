@@ -1,0 +1,9 @@
+添加上傳檔案(整個資料夾上傳)
+  git add .
+  
+為上傳檔案編寫註解
+  git commit -m "這裡打註解"
+  
+上傳上傳檔案
+  git push <這裡打目的branch，不知道打啥就打master>
+  
