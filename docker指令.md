@@ -17,3 +17,8 @@ docker ps -a <br>
 <br>
 docker images <br>
 查看repository保存的所有image <br>
+
+
+# 建立postgres的docker指令
+
+docker run --name postgresname -e POSTGRES_PASSWORD=mysecretpassword -e POSTGRES_USER=username0 -d -p 5432:5432 postgres
