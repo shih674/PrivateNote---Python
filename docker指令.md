@@ -15,9 +15,11 @@ docker ps -a <br>
 <br>
 docker images <br>
 查看repository保存的所有image <br>
+<br>
 docker save -o [匯出檔案的檔名].tar [ImageID]<br>
 匯出Image成壓縮檔 <br>
 eg. docker save -o mysite.tar f8e3f0d10bf <br>
+<br>
 docker load -i [壓縮檔名] <br>
 讀入壓縮檔成Image <br>
 eg. docker load -i mysite.tar
